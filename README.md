@@ -24,8 +24,10 @@ The Main Menu contains 3 options. They are,
 
 The staff has to log in to this software using default Staff ID and default Password. 
 
+```
 * Staff ID: staff 
 * Password:  123 
+```
 
 After login you can enter student information such as Student ID, Name and Age. Then you are able to enter the marks of preliminary subjects.  
 
@@ -38,3 +40,5 @@ After you entering the grades for core and optional modules you have to enter wh
 Finally, you can see the Final report. It contains student GPA and Degree Title. 
  
 ### *Hope this will be helpful to you! :)* 
+
+![alt text](https://github.com/TharinduDilshan/Gugsi-University-of-Computer-Science/blob/master/UoG%20logo.PNG)
