@@ -37,4 +37,4 @@ After you entering the grades for core and optional modules you have to enter wh
 
 Finally, you can see the Final report. It contains student GPA and Degree Title. 
  
-*##Hope this will be helpful to you! :)* 
+### *Hope this will be helpful to you! :)* 
