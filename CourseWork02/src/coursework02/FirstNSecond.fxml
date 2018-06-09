@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="852.0" prefWidth="1299.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursework02.FirstNSecondController">
+   <children>
+      <ImageView fitHeight="920.0" fitWidth="1300.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sfs.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutY="-3.0" opacity="0.58" prefHeight="866.0" prefWidth="1300.0" style="-fx-background-color: black;" />
+      <ImageView fitHeight="101.0" fitWidth="141.0" layoutX="595.0" layoutY="14.0" opacity="0.96" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@UoG%20logo.PNG" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbl3" layoutX="67.0" layoutY="143.0" text="Database systems *" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></Label>
+      <Label fx:id="lbl4" layoutX="67.0" layoutY="181.0" text="Combinatorial mathematics" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></Label>
+      <Label fx:id="lbl5" layoutX="67.0" layoutY="211.0" text="Introduction to parallel computing" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></Label>
+      <Label fx:id="lbl6" layoutX="66.0" layoutY="249.0" text="Programming language design and compilers" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></Label>
+      <Label fx:id="lbl7" layoutX="66.0" layoutY="283.0" text="Operating system design *" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></Label>
+      <Label fx:id="lbl8" layoutX="66.0" layoutY="321.0" text="Graph theory" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></Label>
+      <Label fx:id="lbl9" layoutX="66.0" layoutY="355.0" text="Computer Networks &amp; Distributed systems *" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></Label>
+      <Label fx:id="lbl10" layoutX="66.0" layoutY="387.0" text="Artificial Intelligence *" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></Label>
+      <Label fx:id="lbl11" layoutX="66.0" layoutY="419.0" text="Advanced topics in computer graphics *" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></Label>
+      <Label fx:id="lbl12" layoutX="66.0" layoutY="451.0" text="Web Servers and Technologies" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></Label>
+      <Label fx:id="lbl13" layoutX="66.0" layoutY="486.0" text="Programming Web Applications" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></Label>
+      <Label fx:id="lbl14" layoutX="66.0" layoutY="519.0" text="Introduction to Wireless and Mobile Systems" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></Label>
+      <Label fx:id="lbl15" layoutX="66.0" layoutY="551.0" text="Object Oriented Analysis and Design" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></Label>
+      <TextField fx:id="text1" layoutX="517.0" layoutY="134.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="text2" layoutX="517.0" layoutY="167.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="text3" layoutX="517.0" layoutY="197.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="text4" layoutX="516.0" layoutY="235.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="text5" layoutX="516.0" layoutY="269.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="text6" layoutX="516.0" layoutY="307.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="text7" layoutX="516.0" layoutY="341.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="text8" layoutX="516.0" layoutY="374.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="text9" layoutX="517.0" layoutY="412.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="text10" layoutX="517.0" layoutY="445.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="text11" layoutX="517.0" layoutY="481.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="text12" layoutX="517.0" layoutY="515.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="text13" layoutX="517.0" layoutY="549.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font></TextField>
+      <Label fx:id="lbl1" layoutX="279.0" layoutY="68.0" text="Semester I" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT Bold" size="21.0" />
+         </font></Label>
+      <Label fx:id="lbl2" layoutX="114.0" layoutY="118.0" text="ModuleCode" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT Bold" size="21.0" />
+         </font></Label>
+      <Label fx:id="lbl16" layoutX="516.0" layoutY="108.0" text="Grade" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT Bold" size="21.0" />
+         </font></Label>
+      <Button fx:id="btnnext" layoutX="596.0" layoutY="765.0" mnemonicParsing="false" onAction="#next" text="Next">
+         <font>
+            <Font name="Calisto MT Bold" size="20.0" />
+         </font></Button>
+      <Label fx:id="lbl20" layoutX="681.0" layoutY="134.0" text="Software engineering *" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl21" layoutX="684.0" layoutY="171.0" text="Computer architecture" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl22" layoutX="684.0" layoutY="201.0" text="Systems analysis/Systems engineering" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl23" layoutX="684.0" layoutY="229.0" text="Artificial Neural Networks" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl24" layoutX="684.0" layoutY="263.0" text="Linear programming" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl25" layoutX="684.0" layoutY="294.0" text="Communication networks for computers" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl26" layoutX="684.0" layoutY="328.0" text="Digital image processing" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl27" layoutX="684.0" layoutY="360.0" text="Project management" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl28" layoutX="684.0" layoutY="392.0" text="Special topics in Computer Science *" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl29" layoutX="684.0" layoutY="424.0" text="Laboratory work *" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl30" layoutX="684.0" layoutY="459.0" text="Computer Vision" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl31" layoutX="684.0" layoutY="492.0" text="Analysis of Communication Networks" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl32" layoutX="684.0" layoutY="524.0" text="Cryptography and Network Security" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="text14" layoutX="1079.0" layoutY="124.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text15" layoutX="1079.0" layoutY="157.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text16" layoutX="1079.0" layoutY="187.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text17" layoutX="1079.0" layoutY="226.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text18" layoutX="1079.0" layoutY="260.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text19" layoutX="1079.0" layoutY="291.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text20" layoutX="1079.0" layoutY="325.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text21" layoutX="1079.0" layoutY="357.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text22" layoutX="1079.0" layoutY="392.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text23" layoutX="1079.0" layoutY="425.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text24" layoutX="1079.0" layoutY="455.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text25" layoutX="1079.0" layoutY="483.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text26" layoutX="1079.0" layoutY="515.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </TextField>
+      <Label fx:id="lbl17" layoutX="912.0" layoutY="68.0" text="Semester II" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl18" layoutX="731.0" layoutY="108.0" text="ModuleCode" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl19" layoutX="1088.0" layoutY="93.0" text="Grade" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl33" layoutX="681.0" layoutY="555.0" text="Multimedia Systems" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl34" layoutX="684.0" layoutY="590.0" text="Multimedia Practical" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl35" layoutX="684.0" layoutY="627.0" text="Data mining Techniques" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl36" layoutX="685.0" layoutY="663.0" text="Seminar *" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl37" layoutX="685.0" layoutY="692.0" text="Industrial Project (six months duration)*" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="text27" layoutX="1079.0" layoutY="549.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text28" layoutX="1079.0" layoutY="585.0" prefHeight="4.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="text29" layoutX="1079.0" layoutY="622.0" prefHeight="30.0" prefWidth="78.0">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </TextField>
+      <Label fx:id="lbl38" layoutX="685.0" layoutY="719.0" text="Research project (one year duration) *" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="check1F" layoutX="1183.0" layoutY="664.0" mnemonicParsing="false" onAction="#handleCheckBox1F" text="No" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="check1T" layoutX="1079.0" layoutY="662.0" mnemonicParsing="false" onAction="#handleCheckBox1T" prefWidth="78.0" text="Yes" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="check2F" layoutX="1184.0" layoutY="694.0" mnemonicParsing="false" onAction="#handleCheckBox2F" text="Fail" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="check2T" layoutX="1079.0" layoutY="694.0" mnemonicParsing="false" onAction="#handleCheckBox2T" text="Pass" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="check3F" layoutX="1184.0" layoutY="725.0" mnemonicParsing="false" onAction="#handleCheckBox3F" text="Fail" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="check3T" layoutX="1079.0" layoutY="725.0" mnemonicParsing="false" onAction="#handleCheckBox3T" text="Pass" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </CheckBox>
+      <Button fx:id="addStudent" layoutX="173.0" layoutY="712.0" mnemonicParsing="false" onAction="#addStudent" text="Add a Student" visible="false">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="home" layoutX="596.0" layoutY="713.0" mnemonicParsing="false" onAction="#home" text="Home" visible="false">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="quit" layoutX="1032.0" layoutY="712.0" mnemonicParsing="false" onAction="#quit" text="Quit" visible="false">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="new1" layoutX="118.0" layoutY="151.0" text="Gugsi University of Computer Sciences" textAlignment="CENTER" textFill="WHITE" underline="true" visible="false">
+         <font>
+            <Font name="Bernard MT Condensed" size="72.0" />
+         </font>
+      </Label>
+      <Label fx:id="new2" layoutX="462.0" layoutY="257.0" text="FINAL REPORT" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Calisto MT Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="new4" layoutX="214.0" layoutY="423.0" text="MSc Degree:" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Calisto MT" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="new3" layoutX="214.0" layoutY="375.0" text="GPA:" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Calisto MT" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="new6" layoutX="443.0" layoutY="426.0" text="MSc Degree:" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Calisto MT" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="new5" layoutX="443.0" layoutY="378.0" text="GPA:" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Calisto MT" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

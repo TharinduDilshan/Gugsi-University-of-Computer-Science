@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursework02.InstructionsController">
+   <children>
+      <ImageView fx:id="image" fitHeight="866.0" fitWidth="1332.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sfs.jpg" />
+         </image>
+      </ImageView>
+      <Pane opacity="0.58" prefHeight="856.0" prefWidth="1300.0" style="-fx-background-color: black;" />
+      <Label fx:id="lblTitle" layoutX="490.0" layoutY="142.0" text="Instructions" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bernard MT Condensed" size="72.0" />
+         </font>
+      </Label>
+      <Button fx:id="home" layoutX="319.0" layoutY="626.0" onAction="#home" text="Home">
+         <font>
+            <Font name="Bernard MT Condensed" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="coursework" layoutX="221.0" layoutY="244.0" text="You have to use this Staff ID and Password to login to this program. " textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="32.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="96.0" fitWidth="114.0" layoutX="584.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@UoG%20logo.PNG" />
+         </image>
+      </ImageView>
+      <Button fx:id="next" layoutX="866.0" layoutY="626.0" onAction="#next" text="Next">
+         <font>
+            <Font name="Bernard MT Condensed" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="coursework1" layoutX="550.0" layoutY="331.0" text="Staff ID: staff" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="coursework2" layoutX="553.0" layoutY="375.0" text="Password: 123" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="coursework3" layoutX="459.0" layoutY="763.0" text="Created by: Tharindu Dilshan" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT Bold Italic" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="coursework4" layoutX="265.0" layoutY="493.0" text="Press Next to see modules codes and Grade point Details" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
