@@ -1,4 +1,4 @@
-# Gugsi-University-of-Computer-Science
+# Gugsi-University-of-Computer-Science (JavaFX Program)
 
 ## Introduction 
 
