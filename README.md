@@ -1,14 +1,15 @@
 # Gugsi-University-of-Computer-Science
 
-Introduction 
+## Introduction 
 
 Gugsi University of Computer Sciences (UoG) is a top and famous university in the world and it offers different degrees in the field of Computer Sciences and related technologies such as Masters Degree in CS. 
 
 The Main Degree of this University in MSc in Computer Sciences. So, they offer three degree titles of their main degree. They are, 
-
+```
 1. MSc in Computer Sciences by Coursework – 12 months 
 2. MSc in Computer Science by Coursework and Research – 18 months 
 3. MSc in Computer Science by Research – 24 months 
+```
 
 So, the staff of this university can use this software to select the Degree title for each student. 
 
